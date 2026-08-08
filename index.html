@@ -5,17 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Initial Page</title>
     <link rel="stylesheet" href="./files/css/style.css"></link>
+    <link rel="stylesheet" href="./files/css/animation.css"></link>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: gray; margin-top: 50px; font-family: 'Pixelify Sans', sans-serif;">
-    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <h1 style="color: white;">Rock Shooter 99! (WIP)</h1>
+<body style="background-color: rgb(41, 38, 38); margin-top: 50px; font-family: 'Pixelify Sans', sans-serif;">
+    <img src="./files/gif/galaxy-pixel-art.gif" id="bg">
 
-        <div style="flex-direction: row;">
-            <a href="https://scratch.mit.edu/projects/1271919373/" class="button">Original Game</a>
-            <a href="./files/main-game/main-game.html" class="button">Play</a>
-            <a href="https://github.com/shiki911/rock-shooter-99-remake" class="button">Documentations</a>
+    <section id="intro">
+        <div>
+            <h1 style="text-align: center;">“Our first step was beautiful. I fear the steps that follow.”</h1>
+            <h2 style="text-align: right; margin-right: 50px;">- A great man (Prf. M)</h2>
         </div>
-    </div>
+        <div class="continue">
+            <a onclick="gotopage()" class="button pulse">Continue</a>
+        </div>
+    </section>
+
+    <section id="gamepage">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h1 style="color: white;">Rock Shooter 99! (WIP)</h1>
+
+            <div style="flex-direction: row;">
+                <a href="https://scratch.mit.edu/projects/1271919373/" class="button">Original Game</a>
+                <a href="./files/main-game/main-game.html" class="button">Play</a>
+                <a href="https://github.com/shiki911/rock-shooter-99-remake" class="button">Documentations</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="./files/js/script.js"></script>
 </body>
 </html>
+
+<!--
+Old colour sets
+.button{
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+.button:hover{
+    background-color: #20B2AA;
+}
+-->
