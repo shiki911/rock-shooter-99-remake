@@ -79,3 +79,20 @@
 #gamepage {
     animation : swooshIng 0.75s ease-out;
 }
+
+.idk{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px){
+    .idk{
+        flex-direction: column;
+    }
+
+    .button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

@@ -8,6 +8,7 @@ function gotopage() {
 
     const intro = document.getElementById("intro");
     const gamepage = document.getElementById("gamepage");
+    const rocket = document.getElementById("rocket");
 
     // Start the black wipe
     intro.classList.add("wipe");
@@ -21,5 +22,8 @@ function gotopage() {
         // Show the game page
         gamepage.style.display = "block";
 
+        rocket.style.display = "none";
+
     }, 1000);
+
 }
